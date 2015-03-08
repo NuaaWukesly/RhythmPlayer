@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/text_color_white">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="律动音乐播放器"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:paddingLeft="30dp"
+        android:text="Create by Streamer."
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:paddingLeft="30dp"
+        android:text="单位：南京航空航天大学@161140225"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:paddingLeft="30dp"
+        android:text="版本：1.0.01"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:paddingLeft="30dp"
+        android:text="手机：18061608810"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:paddingLeft="30dp"
+        android:text="QQ：1060394242"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:paddingLeft="30dp"
+        android:text="E_mail:wxl901018@163.com"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:lineSpacingMultiplier="1.5"
+        android:paddingLeft="30dp"
+        android:text="声明：本播放器最终解释权归南京航空航天大学@吴香礼所有。"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:gravity="center_vertical|fill_horizontal"
+        android:paddingLeft="30dp"
+        android:typeface="sans" />
+
+</LinearLayout>

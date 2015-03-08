@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/music_listgroup"
+    android:layout_width="fill_parent"
+    android:layout_height="70.0dip"
+    android:background="#70000000"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/mainlist_exlist_imageview"
+        android:layout_width="70.0dip"
+        android:layout_height="70.0dip"
+        android:background="@drawable/ic_mp4"
+        android:paddingLeft="5.0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mainlist_exlist_listname"
+            android:layout_width="fill_parent"
+            android:layout_height="39.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="10.0dip"
+            android:text="列表为空"
+            android:textColor="@color/text_color_white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mainlist_exlist_num"
+            android:layout_width="wrap_content"
+            android:layout_height="25.0dip"
+            android:paddingLeft="10.0dip"
+            android:text="0首歌曲"
+            android:textColor="@android:color/holo_blue_dark" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="music_titlebar_bgcolor">#ff082e54</color>
+    <color name="music_page_bgcolor">#ff7fffd4</color>
+    <color name="music_toolbar_bgcolor">#ff7cfc00</color>
+    <color name="bnt_pressed_color">#ffffd700</color>
+    <color name="bnt_focused_color">#ffffe4c4</color>
+    <color name="text_color_white">#ffffffff</color>
+    <color name="menu_bgcolor">#ff228b22</color>
+    <color name="menu_kuwo">#ff4169e1</color>
+    <color name="music_bohe">#ffbdfcc9</color>
+    <color name="music_danpurple">#ffda70d6</color>
+    <color name="music_purpleBlue">#ff8a2be2</color>
+    <color name="menu_bg_grey">#ff808069</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

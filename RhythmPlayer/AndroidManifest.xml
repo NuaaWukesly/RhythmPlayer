@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.nuaa161140225.rhythmplayer"
+    android:versionCode="1"
+    android:versionName="1.0.01" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:name="org.nuaa161140225.app.RhythmApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.nuaa161140225.rhythmplayer.LaunchActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.nuaa161140225.rhythmplayer.RhythmPlayer"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+
+        <service
+            android:name="org.nuaa161140225.service.PlayService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="org.nuaa161140225.service.saveDataService"
+            android:enabled="true" >
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+</manifest>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150.0dip"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/menu_page1"
+        android:layout_width="fill_parent"
+        android:layout_height="75.0dip"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="50.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20.0dip"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/menu_musicLrc"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_copyfile" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_weight="0.3"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="歌词修正"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20.0dip"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/menu_theme"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_theme" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_weight="0.3"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="改变主题"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/menu_exit"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_exit" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_weight="0.3"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="退出应用"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_page2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="50.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20.0dip"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/menu_refresh"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_refresh" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_weight="0.3"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="刷新曲库"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20.0dip"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/menu_timing"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_timing" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_weight="0.3"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="定时设置"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/menu_opinion"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_share" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_weight="0.3"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="意见反馈"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="功能菜单"
+        android:textSize="18.0sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="3.0dip"
+        android:background="@android:color/white" />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:paddingTop="5.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="10.0dip"
+            android:paddingTop="10.0dip" >
+
+            <Button
+                android:id="@+id/list_child_addtolist"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:alpha="100.0"
+                android:background="@drawable/btn_style"
+                android:text="添加到" />
+
+            <Button
+                android:id="@+id/list_child_songinfo"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:alpha="100.0"
+                android:background="@drawable/btn_style"
+                android:text="媒体信息"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/list_child_remove"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:alpha="100.0"
+                android:background="@drawable/btn_style"
+                android:text="移出列表" />
+
+            <Button
+                android:id="@+id/list_child_cancel"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:alpha="100.0"
+                android:text="取消" 
+                android:background="@drawable/btn_style"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

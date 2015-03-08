@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingLeft="15.0dip"
+            android:text="请选择编码(可滚动)"
+            android:textSize="18.0sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="3.0dip"
+        android:background="@android:color/white" />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:paddingTop="5.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="10.0dip"
+            android:paddingTop="10.0dip" >
+
+            <Button
+                android:id="@+id/GBK_bnt"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_style"
+                android:text="GBK" />
+
+            <Button
+                android:id="@+id/UTF8_bnt"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:text="UTF-8" 
+                android:background="@drawable/btn_style"/>
+
+            <Button
+                android:id="@+id/UTF16_bnt"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:text="UTF-16" 
+                android:background="@drawable/btn_style"/>
+
+            <Button
+                android:id="@+id/Unicode_bnt"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:text="Unicode" 
+                android:background="@drawable/btn_style"/>
+
+            <Button
+                android:id="@+id/LrcCode_cancelbnt"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:text="取消" 
+                android:background="@drawable/btn_style"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

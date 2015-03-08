@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingLeft="15.0dip"
+            android:text="显示主题"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="3.0dip"
+        android:background="@android:color/white" />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:paddingTop="5.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip" >
+
+            <ImageView
+                android:id="@+id/bgtheme_bg2"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg1" />
+
+            <ImageView
+                android:id="@+id/bgtheme_bg3"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg2" />
+
+            <ImageView
+                android:id="@+id/bgtheme_bg4"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg3" />
+
+            <ImageView
+                android:id="@+id/bgtheme_bg6"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ic_bg1" />
+
+            <ImageView
+                android:id="@+id/bgtheme_bg8"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ic_bg3" />
+
+            <ImageView
+                android:id="@+id/bgtheme_bg9"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ic_bg4" />
+
+            <ImageView
+                android:id="@+id/bgtheme_bg10"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ic_bg5" />
+
+            <ImageView
+                android:id="@+id/bgtheme_bg12"
+                android:layout_width="100.0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ic_bg7" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
